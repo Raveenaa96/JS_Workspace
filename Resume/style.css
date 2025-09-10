@@ -125,3 +125,6 @@ main {
     line-height: 2;
     text-indent: 2rem;
 }
+.active {
+    background-color: rgb(220, 220, 161);
+}

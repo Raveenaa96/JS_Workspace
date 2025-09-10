@@ -16,9 +16,11 @@ function load(){
     listItems.forEach(item => {
         item.addEventListener('click', () => {
             listItems.forEach(i => {
-                i.style.backgroundColor = '';
+                //i.style.backgroundColor = '';
+                i.classList.remove('active');
             })
-            item.style.backgroundColor = 'rgb(220, 220, 161)';
+            //item.style.backgroundColor = 'rgb(220, 220, 161)';
+            item.classList.add('active');
         });
     })
 
